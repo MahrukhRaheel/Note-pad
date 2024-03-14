@@ -52,7 +52,9 @@ function addNewNote(text = '') {
     document.body.appendChild(note)
 }
 
+
 function updateLS() {
+    console.log('Hello')
     const notesText = document.querySelectorAll('textarea')
 
     const notes = []
